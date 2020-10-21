@@ -7,7 +7,7 @@ export default function Home({ pokemons }) {
 
   return (
     <Layout title="Pokedex">
-      <h1 className="text-4xl mb-8 text-center">Pokedex ;D</h1>
+      <h1 className="text-4xl mb-8 text-center">Pokedex</h1>
       <ul>
         {pokemons.map((pokemon, i) => {
           return (
